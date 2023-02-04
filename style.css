@@ -1,0 +1,30 @@
+body {
+  background-color: #740047 !important;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #740047 !important;
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  color: #000000;
+  margin: 0;
+  padding: 0;
+  min-height: 100vh !important;
+  min-width: 100vh !important;
+}
+
+.quiz-card{
+    width: 30rem;
+}
+
+.question-footer {
+    border-top: 1px solid rgba(0, 0, 0, 0.4);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+  padding-top: 12px;
+}
