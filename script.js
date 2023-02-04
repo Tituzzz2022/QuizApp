@@ -33,3 +33,16 @@ let questions = [
     },
  
 ];
+
+let currentQuestion = 1;
+
+function init() {
+    document.getElementById('all-questions').innerHTML = questions.length;
+
+}
+
+//Frage anzeigen
+function showQuestion() {
+  let question = questions[currentQuestion];
+
+
