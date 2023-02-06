@@ -48,6 +48,8 @@ function showQuestion() {
   if (currentQuestion >= questions.length) {
     document.getElementById("question-body").style = "display: none";
     document.getElementById("endScreen").style = "";
+
+    document.getElementById('amountOfQuestions').innerHTML = questions.length;
   };
 
     

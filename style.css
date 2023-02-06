@@ -38,3 +38,11 @@ body {
 .bg-success, .bg-danger {
   color: aliceblue;
 }
+
+/*generische Klasse für die Antwortkarten*/
+.bg-100{
+  width: 100%;
+}
+.text-center{
+  text-align: center;
+}
