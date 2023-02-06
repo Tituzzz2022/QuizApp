@@ -16,12 +16,16 @@ body {
   min-width: 100vh !important;
 }
 
-.quiz-card{
-    width: 30rem;
+.quiz-card {
+  width: 30rem;
+}
+
+.card-img-top {
+  height: 400px;
 }
 
 .question-footer {
-    border-top: 1px solid rgba(0, 0, 0, 0.4);
+  border-top: 1px solid rgba(0, 0, 0, 0.4);
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -29,20 +33,31 @@ body {
   padding-top: 12px;
 }
 
-.quiz-answer-card:hover{
+.quiz-answer-card:hover {
   cursor: pointer;
-  background-color: rgba(0, 0, 0, 0.05)
-
+  background-color: rgba(0, 0, 0, 0.05);
 }
 
-.bg-success, .bg-danger {
+.bg-success,
+.bg-danger {
   color: aliceblue;
 }
 
 /*generische Klasse für die Antwortkarten*/
-.bg-100{
+.bg-100 {
   width: 100%;
 }
-.text-center{
+.text-center {
   text-align: center;
+}
+.final-headline {
+  font-size: 38px;
+  margin-bottom: 1rem;
+}
+
+.btn-row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
 }
